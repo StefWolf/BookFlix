@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{ 
+    background-image: url("./img/WallpaperBook.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*Para fazer o Parallax*/
+    background-size: cover;
+}
+
+/* ---------- STYLE MY HEADER --------------*/
+
+.navbar_header{
+    @apply bg-slate-900;
+    @apply w-full;
+    @apply h-[50px];
+    @apply p-2;
+    @apply pl-6;
+    @apply relative;
+    /*@apply mt-9;*/
+}
+.navbar_header .title{
+    @apply text-blue-900;
+    @apply text-[23px];
+}
+.navbar_header a{
+    @apply text-white;
+}
+
+/*------------------------------*/
+
+/*------ STYLE MY FOOTER -------*/
+
+.footer{
+    @apply bg-slate-900;
+    @apply w-full;
+    @apply h-[200px];
+    @apply relative;
+}
