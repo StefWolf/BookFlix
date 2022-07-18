@@ -10,8 +10,8 @@ Imagens de Desenvolvimento:
 
 ### Início:
 
-![Inicio]("foto_inicio.png")
+![Inicio](foto_inicio.png)
 
 ### Ropadé
 
-![Rodape]("foto_rodape.png")
+![Rodape](foto_rodape.png)
