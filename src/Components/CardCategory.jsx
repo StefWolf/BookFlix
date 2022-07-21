@@ -1,10 +1,21 @@
-
+import { useState } from "react";
 
 export default function CardCategory({icon, title}){
+    const [buton, setButon] = useState(false);
+
+    function setingButon(){
+        setButon(!buton)
+        console.log(buton)
+    }
+
     return(
-        <div className="w-[8%] h-[100px] bg-slate-200 -mt-16 shadow-md p-4 rounded-lg flex-col gap-5 ">
+        <button 
+            className="w-[8%] h-[100px] bg-slate-200 hover:bg-slate-300 transition-all -mt-16 shadow-md p-4 rounded-lg flex-col gap-5 "
+            onClick={setingButon}
+            >
+          
             <p>{icon}</p>
             <p>{title}</p>
-        </div>
+        </button>
     )
 }
