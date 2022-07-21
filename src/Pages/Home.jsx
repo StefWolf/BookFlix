@@ -4,6 +4,8 @@ import SectionCardsCategory from "../Components/SectionCardsCategory";
 import Footer from "../Components/Footer";
 import { FiAtSign, FiUser } from "react-icons/fi";
 import CardBook from "../Components/CardBook";
+import CardEquipe from "../Components/CardEquipe";
+import Equipe from "../Components/Equipe";
 
 export default function Home(){
     return(
@@ -22,7 +24,7 @@ export default function Home(){
                                     </div>
                                     <div className="items-center justify-center mt-4">
                                         <Center>
-                                            <Button colorScheme="red" className="justify-center" variant='outline' size='lg'>
+                                            <Button colorScheme="red" className="justify-center" variant='solid' size='lg'>
                                                 Participe da comunidade
                                             </Button>
                                         </Center>
@@ -43,9 +45,7 @@ export default function Home(){
                         <CardBook />
                     </section>
                </div>
-               <div className="bg-cyan-600 w-full h-[200px]">
-                    <p>test</p>
-               </div>
+               <Equipe />
                <div className=" w-full h-[220px]  bg-slate-900/50 p-10">
                     <div className=" flex-col">
                         <h1 className="text-slate-300 text-[20px]">Quer ser noticiada de novas publicações?</h1>
