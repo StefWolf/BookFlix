@@ -38,6 +38,10 @@ export default function Home(){
                 
                <div className="bg-slate-300 w-full min-h-[1000px]">
                     <SectionCardsCategory />
+                    <div className="ml-[40%]">
+                        <h1 className="text-slate-900 text-[40px] "><strong>Livros</strong></h1>
+                        <hr className="w-[18%] mb-2" />
+                    </div>
                     <section className="h-[600px] gap-5 p-[5%] flex w-full">
                         <CardBook />
                         <CardBook />
