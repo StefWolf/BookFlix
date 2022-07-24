@@ -24,7 +24,7 @@ export default function Home(){
                                     </div>
                                     <div className="items-center justify-center mt-4">
                                         <Center>
-                                            <Button colorScheme="red" className="justify-center" variant='solid' size='lg'>
+                                            <Button colorScheme="red" className=" -z-8" variant='solid' size='lg'>
                                                 Participe da comunidade
                                             </Button>
                                         </Center>

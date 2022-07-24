@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {FiBookOpen, FiFacebook, FiInstagram, FiYoutube, FiTwitter} from 'react-icons/fi'
 import { CloseIcon } from '@chakra-ui/icons'
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 
 //BiBookOpen
@@ -17,10 +17,10 @@ export default function Header(){
                     <p className="title"><strong>BookFlix</strong></p>
                 </div>
                 <div className="gap-8 flex">
-                    <a href="">Início</a>
+                    <a href="/">Início</a>
                     <div className='text-white'
                         onClick={() => setModal(true)}>Sobre</div>
-                    <a href="">Comunidade</a>
+                    <a href="/Login">Comunidade</a>
                 </div>
                 
             </div>

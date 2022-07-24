@@ -40,13 +40,13 @@ export default function Footer(){
                     <p className="text-slate-200 text-[25px]"><strong>Sessões</strong></p>
                     <ul>
                         <li>
-                            <a href="">Inicio</a>
+                            <a href="/">Inicio</a>
                         </li>
                         <li>
                             <a href="">Sobre</a>
                         </li>
                         <li>
-                            <a href="">Comunidade</a>
+                            <a href="/Login">Comunidade</a>
                         </li>
                     </ul>
                 </GridItem>
