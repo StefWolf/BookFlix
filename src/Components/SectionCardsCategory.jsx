@@ -14,14 +14,6 @@ export default function SectionCardsCategory(){
                 icon={<GiDna2 size={40} />} title="Ciência" />
             <CardCategory 
                 icon={<GiBlackBook size={40} />} title="Receitas" />
-            <CardCategory 
-                icon={<GiBlackBook size={40} />} title="Receitas" />
-            <CardCategory 
-                icon={<GiBlackBook size={40} />} title="Receitas" />
-            <CardCategory 
-                icon={<GiBlackBook size={40} />} title="Receitas" />
-            <CardCategory 
-                icon={<GiBlackBook size={40} />} title="Receitas" />
             
         </section>
     )
