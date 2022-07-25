@@ -18,7 +18,7 @@ export default function Header(){
                 </div>
                 <div className="gap-8 flex">
                     <a href="/">Início</a>
-                    <div className='text-white'
+                    <div className='text-black'
                         onClick={() => setModal(true)}>Sobre</div>
                     <a href="/Login">Comunidade</a>
                 </div>

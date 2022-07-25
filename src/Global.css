@@ -12,7 +12,7 @@
 /* ---------- STYLE MY HEADER --------------*/
 
 .navbar_header{
-    @apply bg-slate-900;
+    @apply bg-yellow-500;
     @apply w-full;
     @apply h-[50px];
     @apply p-2;
@@ -21,11 +21,11 @@
     /*@apply mt-9;*/
 }
 .navbar_header .title{
-    @apply text-blue-900;
+    @apply text-black;
     @apply text-[23px];
 }
 .navbar_header a{
-    @apply text-white;
+    @apply text-black;
 }
 
 /*------------------------------*/
@@ -33,7 +33,7 @@
 /*------ STYLE MY FOOTER -------*/
 
 .footer{
-    @apply bg-slate-900;
+    @apply bg-yellow-500;
     @apply w-full;
     @apply h-[200px];
     @apply relative;
