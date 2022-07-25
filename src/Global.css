@@ -12,7 +12,7 @@
 /* ---------- STYLE MY HEADER --------------*/
 
 .navbar_header{
-    @apply bg-yellow-500;
+    @apply bg-yellow-principal;
     @apply w-full;
     @apply h-[50px];
     @apply p-2;
@@ -33,7 +33,7 @@
 /*------ STYLE MY FOOTER -------*/
 
 .footer{
-    @apply bg-yellow-500;
+    @apply bg-yellow-principal;
     @apply w-full;
     @apply h-[200px];
     @apply relative;

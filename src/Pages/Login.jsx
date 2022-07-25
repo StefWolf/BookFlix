@@ -9,7 +9,7 @@ export default function Login(){
     return(
         <>
             <Header />
-            <main className="w-full bg-slate-300/90 h-screen justify-center p-[5%] pl-[20%]">
+            <main className="w-full bg-black/80 h-screen justify-center p-[5%] pl-[20%]">
                 <section className="w-[80%] bg-white min-h-[300px] p-6 rounded-md shadow-lg flex">
                     <div className="flex-col w-[40%] border-r-2">
                         <Text fontSize='3xl' className="pl-[40%]">Login</Text>
@@ -20,7 +20,7 @@ export default function Login(){
                             </div>
                             <div>
                                 <label>Senha</label>
-                                <Input placeholder='Digite o nome de usuário' type='password' size='md' />
+                                <Input placeholder='Digite a senha' type='password' size='md' />
                             </div>
                             <br />
                             <div className="flex gap-5">

@@ -2,8 +2,8 @@
 
 export default function TagCategory({name}){
     return(
-        <div className="bg-gray-100 flex min-w-[50px] h-[30px] rounded-sm p-1">
+        <button className="bg-gray-100 hover:bg-gray-principal flex min-w-[50px] h-[30px] rounded-md p-1">
             {name}
-        </div>
+        </button>
     )
 }

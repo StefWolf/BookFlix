@@ -2,9 +2,10 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import BookOsMiseraveis from '../img/BookOsMiseraveis.jpg'
 import { Text } from '@chakra-ui/react'
-import { FiStar } from "react-icons/fi";
+import { FiStar, FiSearch, FiGlobe, FiShoppingCart } from "react-icons/fi";
 import BookComprar from "../Components/BookComprar";
 import TagCategory from "../Components/TagCategory";
+import FiltroCompra from "../Components/FiltroCompra";
 
 //Boa parte das informações daqui são de propósito de testes para a interface
 export default function Book(){
@@ -12,8 +13,8 @@ export default function Book(){
     return (
         <>
             <Header />
-            <main className="w-full bg-gray-200 h-full justify-center ">
-                <div className="w-full bg-white h-[50px] mb-[3%] shadow-md p-3 flex gap-3">
+            <main className="w-full bg-gray-principal h-full justify-center ">
+                <div className="w-full bg-gray-secundaria h-[50px] mb-[3%] shadow-md p-3 flex gap-3">
                     <TagCategory name="Fantasia" />
                     <TagCategory name="Biografia" />
                     <TagCategory name="Romance" />
@@ -35,8 +36,11 @@ export default function Book(){
 
                             </div>
                             <div className="flex-col  ml-30 mr-5">
-                                <Text fontSize='3xl' >Os Miseráveis</Text>
-                                <p className="text-justify">
+                                <div className="flex gap-4 pt-2">
+                                    <Text fontSize='3xl' >Os Miseráveis</Text>
+                                    <TagCategory name="Fantasia" />
+                                </div>
+                                <p className="text-justify font-sans">
                                 Na França do século 19, o ex-prisioneiro Jean Valjean, perseguido
                                  ao longo de décadas pelo impiedoso policial Javert por ter violado
                                   sua liberdade condicional, busca redenção pelo seu passado e decide 
@@ -45,6 +49,7 @@ export default function Book(){
                                 <div className="pt-4">
                                     <p><b>Autor(a):</b> Victor Hugo</p>
                                     <p><b>Ano Edição:</b> 2014</p>
+                                    <p><b>Editora: </b> AlgumaEditora</p>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +58,9 @@ export default function Book(){
                     <section className="w-[40%] bg-white h-[400px] rounded-sm shadow-md pt-3 pl-[3%]">
                         <div className="w-full h-[10%] flex justify-between">
                             <Text fontSize='2xl '> Livros usados</Text>
-                            <button className="mr-10">Filtro</button>
+                            <FiltroCompra />
                         </div>
-                        <div className="w-[95%] p-2 bg-gray-100 h-[70%] shadow-md flex-col">
+                        <div className="w-[95%] p-2 bg-gray-100 h-[70%] mt-2 shadow-md flex-col">
                             <BookComprar 
                                 nome="Stefane de Assis"
                                 cep="59010-020"
@@ -85,6 +90,21 @@ export default function Book(){
                                 estado="RN"
                             />
                         </div>
+                        <div className="flex mt-2 gap-6 text-gray-600 font-sans">
+                            <div className="flex gap-1">
+                                <div className="pt-1">
+                                    <FiShoppingCart />
+                                </div>
+                                <p><b>Estoque:</b> 4</p>
+                            </div>
+                            <div className="flex gap-1">
+                                <div className="pt-1">
+                                    <FiGlobe />
+                                </div>
+                                <p><b>Estados:</b> 3</p>
+                            </div>
+                        </div>
+
                     </section>
                 </div>
                 
@@ -96,3 +116,4 @@ export default function Book(){
         </>
     )
 }
+//FiGlobe, FiShoppingCart

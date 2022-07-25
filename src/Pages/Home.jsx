@@ -14,7 +14,7 @@ export default function Home(){
                 <Header />
                 <div className="w-full min-h-[625px]">
                     <div className=" top-0  w-full h-full flex items-center justify-center">
-                        <div className=" w-full h-screen  bg-slate-900/50 ">
+                        <div className=" w-full h-screen  bg-black/50 ">
                             <div className="lg:ml-32 lg:mt-24 w-[500px]  min-h-[300px]"> 
                                 <div className="p-5 flex-col">
                                     <h1 className="text-[40px] text-cyan-500"><strong>Bem vindo ao BookFlix!</strong></h1>
@@ -36,7 +36,7 @@ export default function Home(){
                     </div>
                 </div>
                 
-               <div className="bg-slate-300 w-full min-h-[1000px]">
+               <div className="bg-gray-secundaria w-full min-h-[1000px]">
                     <SectionCardsCategory />
                     <div className="ml-[40%]">
                         <h1 className="text-slate-900 text-[40px] "><strong>Livros</strong></h1>
@@ -50,7 +50,7 @@ export default function Home(){
                     </section>
                </div>
                <Equipe />
-               <div className=" w-full h-[220px]  bg-slate-900/50 p-10">
+               <div className=" w-full h-[220px]  bg-black/50 p-10">
                     <div className=" flex-col">
                         <h1 className="text-slate-300 text-[20px]">Quer ser noticiada de novas publicações?</h1>
                         <br />
