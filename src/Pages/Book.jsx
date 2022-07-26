@@ -1,11 +1,12 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
-import BookOsMiseraveis from '../img/BookOsMiseraveis.jpg'
+import BookOsMiseraveis from '../img/BookOsMiseraveis.jpg'      
 import { Text } from '@chakra-ui/react'
-import { FiStar, FiSearch, FiGlobe, FiShoppingCart } from "react-icons/fi";
+import { FiStar, FiSearch, FiGlobe, FiShoppingCart, FiMenu } from "react-icons/fi";
 import BookComprar from "../Components/BookComprar";
 import TagCategory from "../Components/TagCategory";
 import FiltroCompra from "../Components/FiltroCompra";
+import MenuLateral from "../Components/MenuLateral";
 
 //Boa parte das informações daqui são de propósito de testes para a interface
 export default function Book(){
@@ -14,14 +15,15 @@ export default function Book(){
         <>
             <Header />
             <main className="w-full bg-gray-principal h-full justify-center ">
-                <div className="w-full bg-gray-secundaria h-[50px] mb-[3%] shadow-md p-3 flex gap-3">
+                <div className="w-full bg-gray-secundaria h-[50px] mb-[3%] shadow-md p-3 flex gap-3 z-40">
+                    <MenuLateral />
                     <TagCategory name="Fantasia" />
                     <TagCategory name="Biografia" />
                     <TagCategory name="Romance" />
                     <TagCategory name="Ficção" />
                     <TagCategory name="Receita" />
                 </div>
-                <div className="flex gap-6">
+                <div className="flex gap-6 z-30">
                     <section className="w-[60%] bg-white min-h-[400px] rounded-sm shadow-md">
                         <div className="flex">
                             <div className="flex-col p-5">

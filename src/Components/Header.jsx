@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import {FiBookOpen, FiFacebook, FiInstagram, FiYoutube, FiTwitter} from 'react-icons/fi'
+import {FiBookOpen, FiFacebook, FiInstagram, FiYoutube, FiTwitter, FiSearch} from 'react-icons/fi'
 import { CloseIcon } from '@chakra-ui/icons'
-import { Button } from '@chakra-ui/react'
+import { Button, Input, InputGroup, InputLeftElement } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 
 //BiBookOpen
@@ -15,6 +15,13 @@ export default function Header(){
                 <div className="w-[75%] flex gap-2">
                     <FiBookOpen size={30} />
                     <p className="title"><strong>BookFlix</strong></p>
+                    <InputGroup className='mr-32 ml-4 border-black' >
+                        <InputLeftElement
+                            pointerEvents='none'
+                            children={<FiSearch color='gray' className='mb-2' />}
+                            />
+                        <Input   type='text' size="sm"  placeholder='Phone number' _placeholder={{color: 'gray'}} />
+                    </InputGroup>
                 </div>
                 <div className="gap-8 flex">
                     <a href="/">Início</a>
