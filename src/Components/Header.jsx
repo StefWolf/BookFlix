@@ -32,7 +32,7 @@ export default function Header(){
                 
             </div>
             {modal && (
-                <div data-aos="fade-down" className="bg-white/90 w-[90%] min-h-[200px] pb-6 m-[5%] rounded-sm fixed flex-col">
+                <div data-aos="fade-down" className="bg-white w-[90%] min-h-[200px] pb-6 m-[5%] rounded-sm fixed flex-col">
                     <div className='w-full flex'>
                         <div className='w-[95%] text-[30px] pl-7 pt-3'>
                             <h1>Sobre o site</h1>
@@ -56,16 +56,16 @@ export default function Header(){
                         <br />
                         <Text fontSize='2xl'>Redes sociais</Text>
                         <div className='flex mt-3 gap-4'>
-                            <Button colorScheme='teal' variant='outline'>
+                            <Button colorScheme='yellow' variant='outline'>
                                 <FiFacebook size={30} />
                             </Button>
-                            <Button colorScheme='teal' variant='outline'>
+                            <Button colorScheme='yellow' variant='outline'>
                                 <FiInstagram size={30} />
                             </Button>
-                            <Button colorScheme='teal' variant='outline'>
+                            <Button colorScheme='yellow' variant='outline'>
                                 <FiYoutube size={30} />
                             </Button>
-                            <Button colorScheme='teal' variant='outline'>
+                            <Button colorScheme='yellow' variant='outline'>
                                 <FiTwitter size={30} />
                             </Button>
                         </div>
