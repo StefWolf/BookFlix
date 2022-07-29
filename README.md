@@ -3,8 +3,9 @@
 - [x] Rodapé
 - [x] Cabeçalho
 - [ ] Linkagens
-- [ ] Página de books
+- [x] Página de books
 - [ ] Main
+- [ ] Página do usuário
 
 Imagens de Desenvolvimento:
 
@@ -19,5 +20,9 @@ Imagens de Desenvolvimento:
 ### Registro e Login
 
 ![Login](foto_login.png)
+
+### Página do livro
+
+![Book](foto_book.png)
 
 > Atenção! projeto em fase de desenvolvimento ainda não está responsivo.
