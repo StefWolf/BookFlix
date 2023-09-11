@@ -27,6 +27,7 @@ export default function Home(){
                                             <button  className="bg-blue-claro hover:bg-blue-800 transition-colors p-4 text-1xl text-white rounded-md" >
                                                 Participe da comunidade
                                             </button>
+                                            <button></button>
                                         </Center>
         
                                     </div>
