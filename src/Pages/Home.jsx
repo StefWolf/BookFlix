@@ -30,6 +30,9 @@ export default function Home(){
                                         </Center>
         
                                     </div>
+                                    <div>
+                                        <p>abcd</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +52,6 @@ export default function Home(){
                         <CardBook />
                     </section>
                </div>
-               <Equipe />
                <div className=" w-full h-[220px]  bg-black/50 p-10">
                     <div className=" flex-col">
                         <h1 className="text-slate-300 text-[20px]">Quer ser noticiada de novas publicações?</h1>
