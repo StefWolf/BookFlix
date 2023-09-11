@@ -32,6 +32,7 @@ export default function Home(){
                                     </div>
                                     <div>
                                         <p>abcd</p>
+                                        <p>aeiou</p>
                                     </div>
                                 </div>
                             </div>
